@@ -403,11 +403,11 @@ const WatchedSummary = ({ watched }) => {
         </p>
         <p>
           <span>⭐️</span>
-          <span>{avgImdbRating.toFixed(1)}</span>
+          <span>{avgImdbRating?.toFixed(1)}</span>
         </p>
         <p>
           <span>🌟</span>
-          <span>{avgUserRating.toFixed(1)}</span>
+          <span>{avgUserRating?.toFixed(1)}</span>
         </p>
         <p>
           <span>⏳</span>
